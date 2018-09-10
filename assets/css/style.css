@@ -22,7 +22,7 @@ nav .row {
 	max-height:  50vh;
 	opacity: 0.75;
 }
-#Fellows .card img:hover{
+#Fellows .card:hover img{
 	position: relative;
 	align-content: center;
 	min-height: 50vh;
