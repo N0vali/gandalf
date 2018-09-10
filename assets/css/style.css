@@ -1,0 +1,98 @@
+nav .container-fluid{
+	display: flex;
+	align-content: center;
+}
+nav .row {
+
+}
+
+
+/*carousel*/
+.d-block{
+	max-height: 550px;
+	min-height: 550px;
+}
+
+/*card*/
+#Fellows .card img{
+	position: relative;
+	align-content: center;
+	min-height: 50vh;
+	min-width:  30vw;
+	max-height:  50vh;
+	opacity: 0.75;
+}
+.card img:hover{
+	position: relative;
+	align-content: center;
+	min-height: 50vh;
+	min-width:  30vw;
+	max-height:  50vh;
+	opacity: 1;
+}
+.card-title{
+  position: absolute;
+  top: 25vh;
+  font-size: 4vw;
+  color: white;
+  font-family: sans-serif;
+  width: 100%;
+  text-align: center;
+}
+.card:hover .card-title{
+	font-size: 2vw;
+	top: 35vh;
+}
+.card h2{
+	position: absolute;
+	top: 2vw;
+ 	left: 2vw;
+ 	font-size: 2.5vw;
+ 	font-family: sans-serif;
+	background-color: rgba(255, 255, 255, 0.7);
+  	border-radius: 20px;
+  	width: 20vw;
+  	text-align: center;
+  	margin-left: 5vw;
+}
+
+.card:hover h2{
+	display: none;
+}
+.card span{
+	color: orange;
+}
+/*rewards*/
+.button-rewards{
+	align-content: center;
+}
+/*Hunters*/
+#Hunters img{
+	min-height: 25vh;
+	min-width:  15vw;
+	max-height:  25vh;
+}
+/*ring*/
+#Ring h4{
+	background-color: #D3D3D3;
+
+}
+#Ring img{
+	min-height: 25vh;
+	min-width:  11vw;
+	max-width: 25vw;
+	max-height:  25vh;
+	border-radius: 75%;
+}
+@media screen and (max-width:360px) 
+{
+	#Ring img{
+	display: none;
+	}
+}
+
+#Join img{
+	min-height: 45vh;
+	min-width:  5vw;
+	max-height:  25vh;
+}
